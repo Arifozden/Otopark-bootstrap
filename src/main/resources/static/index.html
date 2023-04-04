@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Otopark Kayit Sayfasi</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<h1>Otopark Kayit</h1>
+<table>
+  <tr>
+    <td>TC</td><td><input type="text" id="tc"></td></tr><tr>
+    <td>Isim</td><td><input type="text" id="isim"></td></tr><tr>
+    <td>Soyisim</td><td><input type="text" id="soyisim"></td></tr><tr>
+    <td>Adres</td><td><input type="text" id="adres"></td></tr><tr>
+    <td>Plaka</td><td><input type="text" id="plaka"></td></tr><tr>
+    <td>Marka</td><td><input type="text" id="marka"></td></tr><tr>
+    <td>Model</td><td><input type="text" id="model"></td></tr><tr>
+    <td>Yil</td><td><input type="text" id="yil"></td>
+  </tr></table>
+<br>
+
+<button onclick="kayit()">Kaydet</button>
+<br>
+Tum kayitlar: <br>
+<div id="musteriler"></div>
+<br><br>
+<button onclick="hepsiniSil()">Tum kayitlari sil</button>
+<script src="index.js"></script>
+</body>
+</html>
