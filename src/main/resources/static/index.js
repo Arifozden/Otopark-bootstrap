@@ -28,7 +28,7 @@ function kayit() {
     }
 
     function bilgiDuzen(musteriler){
-        let yaz="<table><tr><th>TC</th><th>Isim</th>" +
+        let yaz="<table class='table table-striped'><tr><th>TC</th><th>Isim</th>" +
             "<th>Soyisim</th><th>Adres</th>" +
             "<th>Plaka</th><th>Marka</th><th>Model</th><th>Yil</th></tr>";
         for(const musteri of musteriler){
